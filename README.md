@@ -8,11 +8,13 @@ To write a program to predict the price of the house and number of occupants in 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Load and preprocess the California Housing dataset by selecting input features and two output variables, then split the data into training and testing sets.
 
+2. Scale the training and testing data using StandardScaler to bring the features and target values to a common scale.
+
+3. Train the models using MultiOutputRegressor with SGDRegressor, and also train separate LinearRegression and SGDRegressor models.
+
+4. Predict and evaluate the results by generating predictions on the test data and converting the scaled predictions back to the original scale.
 ## Program:
 ```
 /*
